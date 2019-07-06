@@ -1,0 +1,15 @@
+*{
+  color: $blue_color;
+}
+// per l'icona della chat
+.fa-comment-alt{
+  font-size: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: $orange_button;
+  cursor: pointer;
+}

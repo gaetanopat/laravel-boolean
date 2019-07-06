@@ -11,8 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('laravel-boolean', 'HomeController@homepage');
+// route per la homepage
+Route::get('/', 'HomeController@homepage')->name('home');
+// route per la pagina privacy-policy
+Route::get('privacy-policy', 'HomeController@privacyPolicy')->name('privacy');
+// route per la pagina work-with-us
+Route::get('work-with-us', 'HomeController@workwithUs')->name('lavoraconnoi');

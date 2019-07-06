@@ -1,5 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+* {
+  color: #1b3c59;
+}
+
+.fa-comment-alt {
+  font-size: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: #f47637;
+  cursor: pointer;
+}
+
 header {
   height: 90px;
 }
@@ -54,18 +70,18 @@ header .header-right ul li a.sign-up:hover {
   border-bottom: none;
 }
 
-section {
+section.white-section {
   height: 400px;
 }
 
-section .container,
-section .section-left,
-section .section-right {
+section.white-section .container,
+section.white-section .section-left,
+section.white-section .section-right {
   height: 400px;
 }
 
-section .section-left,
-section .section-right {
+section.white-section .section-left,
+section.white-section .section-right {
   float: left;
   display: -webkit-box;
   display: flex;
@@ -78,35 +94,86 @@ section .section-right {
           flex-direction: column;
 }
 
-section .section-left h1 {
+section.white-section .section-left h1 {
   color: #61ce4e;
 }
 
-section .section-left p {
+section.white-section .section-left p {
   font-size: 18px;
   color: #1b3c59;
 }
 
-section .section-left a.read_more {
+section.white-section .section-left a.read_more {
   padding: 10px 25px;
   color: white;
   background-color: #f47637;
 }
 
-section .section-left a.read_more:hover {
+section.white-section .section-left a.read_more:hover {
   background-color: #f5874f;
   text-decoration: none;
 }
 
-section .section-right {
+section.white-section .section-right {
   text-align: right;
   -webkit-box-align: end;
           align-items: flex-end;
 }
 
-section .section-right img {
+section.white-section .section-right img {
   width: 80%;
   height: 80%;
+}
+
+section.blue-section {
+  height: 200px;
+  background-color: #1b3c59;
+}
+
+section.blue-section .container {
+  padding: 40px;
+  height: 200px;
+}
+
+section.blue-section h2 {
+  text-align: center;
+  color: white;
+}
+
+section.blue-section div.images {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+section.blue-section div.images img {
+  width: 100px;
+  height: 30px;
+}
+
+section.blue-section div.images .cayenne {
+  width: 80px;
+}
+
+section.blue-section div.images .fabbrica-digitale {
+  width: 130px;
+}
+
+section.privacy-pol,
+section.lavora-con-noi {
+  font-size: 16px;
+}
+
+section.privacy-pol a strong,
+section.lavora-con-noi a strong {
+  color: #007bff;
+}
+
+section.privacy-pol a strong:hover,
+section.lavora-con-noi a strong:hover {
+  color: #0056b3;
 }
 
 footer {
@@ -149,6 +216,22 @@ footer .col-2 {
 
 footer .col-2 i {
   font-size: 25px;
+}
+
+footer .col-2 .fa-facebook-square:hover {
+  color: #4267b2;
+}
+
+footer .col-2 .fa-linkedin:hover {
+  color: #4875b4;
+}
+
+footer .col-2 .fa-youtube:hover {
+  color: #f33;
+}
+
+footer .col-2 .fa-whatsapp:hover {
+  color: #25d366;
 }
 
 footer .blue-footer {

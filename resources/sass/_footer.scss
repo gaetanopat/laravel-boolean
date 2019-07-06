@@ -18,10 +18,29 @@ footer{
   }
   .col-2{
     text-align: right;
-   i{
-    font-size: 25px;
+    // grandezza delle icone
+    i{
+      font-size: 25px;
+    }
+    // quando vado sull'icona di facebook
+    .fa-facebook-square:hover{
+      color: #4267b2;
+    }
+    // quando vado sull'icona di linkedin
+    .fa-linkedin:hover{
+      color: #4875b4;
+    }
+    // quando vado sull'icona di youtube
+    .fa-youtube:hover{
+      color: #f33;
+    }
+    // quando vado sull'icona di whatsapp
+    .fa-whatsapp:hover{
+      color: #25d366;
     }
   }
+  
+  // per la parte blu, finale
   .blue-footer{
     background-color: $blue_color;
     height: $last_footer_part_height;
